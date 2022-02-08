@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"axios": "^0.25.0",
+		"netlify-cli": "^8.18.1"
+	},
+	"scripts": {
+		"dev": "http-server -p 8080",
+		"netlify": "node ./node_modules/netlify-cli/bin/run"
+	}
+}
